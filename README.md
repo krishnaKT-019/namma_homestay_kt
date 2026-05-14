@@ -1,53 +1,67 @@
-# Namma HomeStay - Host Portal
+# 🏡 Namma-HomeStay
 
-A simplified Android application designed for rural home-stay owners to manage their listings, daily menus, and traveler inquiries.
+Namma-HomeStay is an Android application built using **Jetpack Compose** that helps local homestay owners in coastal areas manage and showcase their rooms easily.  
+The app focuses on supporting small homestay businesses that are not tech-savvy and helps them participate in the growing eco-tourism and agri-tourism market.
 
-## 📸 App Preview
-<p align="center">
-  <img src="image_a2ea3a.jpg" width="30%" />
-  <img src="image_name_2.jpg" width="30%" />
-  <img src="image_name_3.jpg" width="30%" />
-</p>
-<p align="center">
-  <img src="image_name_4.jpg" width="30%" />
-  <img src="image_name_5.jpg" width="30%" />
-  <img src="image_name_6.jpg" width="30%" />
-</p>
+---
 
-## Features
-- **Splash Screen**: Warm welcome with smooth animation.
-- **Home Dashboard**: Quick access to all modules with summary cards.
-- **My Home Profile**: Manage homestay details and a **Verification Checklist** (Cleanliness, Hygiene, etc.).
-- **Daily Menu**: Update "Today's Menu" in less than a minute.
-- **Inquiry Box**: View traveler messages and contact them directly via the dialer.
-- **Local Guide**: Showcase nearby hidden gems (waterfalls, farms, etc.).
+# 📸 Project Screenshots
 
-## Tech Stack
-- **Kotlin & Jetpack Compose**: Modern UI development.
-- **MVVM Architecture**: Separation of concerns.
-- **Hilt**: Dependency injection.
-- **Navigation Component**: Seamless screen transitions.
-- **Firebase Firestore**: Real-time data storage (Implementation ready).
-- **Coil**: Image loading.
+## Home Screen
+<img src="homestay1.jpg" width="250"/>
 
-## Setup Instructions
+## Property Listing
+<img src="homestay2.jpeg" width="250"/>
 
-### 1. Firebase Configuration
-To enable the real-time Firebase backend:
-1. Create a project in the [Firebase Console](https://console.firebase.google.com/).
-2. Add an Android App with package name `com.example.nammahomestay`.
-3. Download `google-services.json` and place it in the `app/` directory.
-4. Uncomment the `google-services` plugin in `app/build.gradle.kts`.
-5. In `AppModule.kt`, switch the repository provider to `FirebaseHomestayRepository`.
+## Room Details
+<img src="homestay3.jpeg" width="250"/>
 
-### 2. Running the App
-- Currently, the app uses `MockHomestayRepository` so it's fully functional for testing without Firebase.
-- Simply build and run the project in Android Studio.
+## Booking Interface
+<img src="homestay4.jpeg" width="250"/>
 
-## Folder Structure
-- `data/`: Repository implementations (Firebase & Mock).
-- `domain/`: Business logic, models, and repository interfaces.
-- `presentation/`: UI screens, ViewModels, and Composables.
-- `navigation/`: Navigation graph and routes.
-- `ui/theme/`: Custom warm/coastal color palette.
-- `di/`: Hilt modules.
+## Coastal Homestay Experience
+<img src="homestay5.jpeg" width="250"/>
+
+---
+
+# ✨ Features
+
+- 🏠 Browse available homestays
+- 📍 Coastal tourism focused UI
+- 📅 Booking interface
+- 🔥 Firebase integration ready
+- ⚡ Modern Android architecture
+- 🎨 Jetpack Compose UI
+- 🌐 Easy-to-use host management system
+
+---
+
+# 🛠 Tech Stack
+
+- **Kotlin**
+- **Jetpack Compose**
+- **MVVM Architecture**
+- **Hilt**
+- **Navigation Component**
+- **Firebase Firestore**
+- **Coil**
+
+---
+
+# 📂 Project Structure
+
+- `data/` → Repository implementations (Firebase & Mock)
+- `domain/` → Business logic, models, repository interfaces
+- `presentation/` → UI screens, ViewModels, Composables
+- `navigation/` → Navigation routes
+- `ui/theme/` → Custom coastal color palette
+- `di/` → Hilt dependency injection modules
+
+---
+
+# ⚙️ Firebase Configuration
+
+1. Create a Firebase project  
+2. Add Android app package:
+   ```text
+   com.example.nammahomestay
