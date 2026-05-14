@@ -2,6 +2,18 @@
 
 A simplified Android application designed for rural home-stay owners to manage their listings, daily menus, and traveler inquiries.
 
+## 📸 App Preview
+<p align="center">
+  <img src="image_a2ea3a.jpg" width="30%" />
+  <img src="image_name_2.jpg" width="30%" />
+  <img src="image_name_3.jpg" width="30%" />
+</p>
+<p align="center">
+  <img src="image_name_4.jpg" width="30%" />
+  <img src="image_name_5.jpg" width="30%" />
+  <img src="image_name_6.jpg" width="30%" />
+</p>
+
 ## Features
 - **Splash Screen**: Warm welcome with smooth animation.
 - **Home Dashboard**: Quick access to all modules with summary cards.
